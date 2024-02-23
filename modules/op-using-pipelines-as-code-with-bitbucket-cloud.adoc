@@ -111,7 +111,7 @@ spec:
       name: "bitbucket-cloud-token" <2>
       key: "provider.token" # Set this if you have a different key in your secret
 ----
-<1> You can only reference a user by the `ACCOUNT_ID` in an owner file.
+<1> Specify the BitBucket Server username.
 <2> {pac} assumes that the secret referred in the `git_provider.secret` spec and the `Repository` CR is in the same namespace.
 
 +
